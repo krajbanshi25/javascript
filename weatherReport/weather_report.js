@@ -2,7 +2,7 @@ function showweatherDetails(event) {
     event.preventDefault(); // Stop the form from reloading the page
   
     const city = document.getElementById('city').value;
-    const apiKey = '4b30494385cb7cc6f1e0596fd37259d1'; // Replace with your actual API key
+    const apiKey = 'your api key'; // Replace with your actual API key
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   
     fetch(apiUrl)
